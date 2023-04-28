@@ -96,6 +96,32 @@ body {
 }
 
 /*--------------------
-    MAIN
+    FOOTER
 --------------------*/
 
+footer {
+    background: #5D5650;
+}
+
+.footer {
+    color: #ffffff;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    padding: 10%;
+}
+
+footer i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.lorem {
+    width: 300px;
+}
+
+.desenvolvido-por {
+    color: #ffffff;
+    padding-bottom: 20px;
+    text-align: center;
+}
