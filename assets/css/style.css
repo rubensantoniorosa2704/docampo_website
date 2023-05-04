@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -11,6 +10,7 @@ body {
     padding: 0;
 }
 
+<<<<<<< HEAD
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -42,11 +42,21 @@ body {
 #redes {
     background-color:rgb(47, 47, 47);
     color: white;
+=======
+
+/*--------------------
+    HEADER
+--------------------*/
+
+.menu {
+    background-color:rgb(47, 47, 47);
+>>>>>>> f646dc54b976bc6a0719c2a55059ab0cdc310b1f
     display: flex;
     justify-content: space-between;
 }
 
 .contatos {
+<<<<<<< HEAD
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -89,12 +99,78 @@ body {
     background-color: rgb(156, 209, 32);
     text-align: center;
     width: 120px;
+=======
+    color: white;
+}
+
+.tel-email {
+    display: flex;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.tel-email li {
+    margin-right: 60px;
+}
+
+.tel-email i {
+    font-size: 20px;    
+}
+
+.sn {
+    padding: 10px;
+}
+
+.sn li {
+    margin-right: 25px;
+}
+
+.sn i {
+    font-size: 25px;    
+}
+
+/*--------------------
+    NAV
+--------------------*/
+
+.nav {
+    justify-content: flex-end;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav li {
+    font-size: large;
+    justify-content: flex-end;
+    margin-right: 50px;
+    padding: 25px;
+}
+
+.nav a {
+    color: grey;
+    text-decoration: none;
+}
+
+.nav li:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+#loja {
+    background-color: rgb(168, 214, 109);
+    text-align: center;
+    width: 130px;
+>>>>>>> f646dc54b976bc6a0719c2a55059ab0cdc310b1f
 }
 
 #loja a {
     color: white;
 }
 
+<<<<<<< HEAD
 /*--------------------
   RODAPÉ
 --------------------*/
@@ -113,5 +189,39 @@ footer {
 }
 
 #desenvolvido {
+=======
+#loja:hover {
+    background-color: rgb(142, 204, 60);
+}
+
+/*--------------------
+    FOOTER
+--------------------*/
+
+footer {
+    background: #5D5650;
+}
+
+.footer {
+    color: #ffffff;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    padding: 10%;
+}
+
+footer i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.lorem {
+    width: 300px;
+}
+
+.desenvolvido-por {
+    color: #ffffff;
+    padding-bottom: 20px;
+>>>>>>> f646dc54b976bc6a0719c2a55059ab0cdc310b1f
     text-align: center;
 }
