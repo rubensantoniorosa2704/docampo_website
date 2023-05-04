@@ -23,3 +23,95 @@ body {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 0.3%;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*--------------------
+  CONTATOS
+--------------------*/
+
+#redes {
+    background-color:rgb(47, 47, 47);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contatos {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: fit-content;
+}
+
+.contatos li {
+    margin-left: 25px;
+}
+
+.contatos i {
+    font-size: 20px;
+}
+
+/*--------------------
+  MENU DE NAVEGAÇÃO
+--------------------*/
+
+.menu {
+    display: flex;
+    float: right;
+    list-style-type: none;
+}
+
+.menu li {
+    margin-right: 40px;
+    padding: 20px;
+}
+
+.menu li:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+.menu a {
+    color: rgb(142, 142, 142);
+    text-decoration: none;
+}
+
+#loja {
+    background-color: rgb(156, 209, 32);
+    text-align: center;
+    width: 120px;
+}
+
+#loja a {
+    color: white;
+}
+
+/*--------------------
+  RODAPÉ
+--------------------*/
+
+footer {
+    border: 1px solid rgb(177, 177, 177);
+    color: rgb(233, 233, 233);
+    background-color: rgb(78, 78, 78);
+    width: 100%;
+}
+
+#rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+#desenvolvido {
+    text-align: center;
+}
