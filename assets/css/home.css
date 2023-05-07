@@ -1,0 +1,179 @@
+/*Config fonte*/
+@font-face {
+    font-family: Benchnine;
+    src: url(../fonts/benchnine/BenchNine-Light.ttf);
+}
+
+/*--------------------
+    PRINCIPAL
+--------------------*/
+
+.campo {
+    color: white;
+    font-family: Benchnine;
+    font-size: 90px;
+    letter-spacing: 15px;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 34%;
+}
+
+.campo h3 {
+    font-size: 30px;
+    letter-spacing: 0px;
+    text-align: right;
+}
+
+.campo button {
+    background-color: grey;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    position: absolute;
+    left: 90px;
+    top: 400px;
+    width: 250px;
+}
+
+.campo button:hover {
+    background-color: rgb(108, 108, 108);
+    border: 1px solid black;
+    color: rgb(229, 229, 229);
+}
+
+/*Estilo padrão da classe .conteudos*/
+.conteudos {
+    top: 700px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.container [class*="col-"] {
+    padding: 25px;
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.botao {
+    color: white;
+    background-color: var(--verde);
+    font-family: Benchnine;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.botao:hover {
+    background-color: #999f2c;
+}
+
+.titulo {
+    color: rgb(37, 37, 37);
+    font-family: Benchnine;
+    font-size: 80px;
+    text-align: left;
+}
+
+.texto {
+    color: grey;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/*marcas*/
+
+.marcas {
+    text-align: center;
+}
+
+/*serviços*/
+
+.servicos {
+    color: white;
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    padding: 40px;
+}
+
+.servicoicone {
+    display: inline-block;
+    padding: 30px;
+}
+
+.servicoicone img {
+    vertical-align: bottom;
+}
+
+.servicoicone p {
+    font-family: Benchnine;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/*catalogo*/
+
+.catalogo {
+    color: white;
+    position: absolute;
+    top: 2710px;
+    left: 26%;
+    text-align: center;
+}
+
+/*contato*/
+.contato {
+    background-color: rgb(78, 78, 78);
+    padding: 60px;
+}
+
+.contato-fundo {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    border: none;
+    color: white;
+    font-family: Benchnine;
+}
+
+::placeholder {
+    font-family: Benchnine;
+    color: white;
+}
+
+.grupo {
+    margin-bottom: 20px;
+}
+
+.grupo input {
+    margin-right:20px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.contato input {
+    background-color: var(--verde);
+    padding: 4px;
+}
+
+.contato textarea {
+    background-color: var(--verde);
+}
+
+.teste {
+    justify-content: space-between;
+}
