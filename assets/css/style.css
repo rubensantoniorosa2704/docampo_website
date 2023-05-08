@@ -181,7 +181,7 @@ a {
 
 /*MENU DE NAVEGAÇÃO*/
 .fundo-menunavegacao {
-    background-image: url(../img/trigo-fundo.png);
+    background-image: url(../img/mulher-fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -374,4 +374,35 @@ input {
 
 .botao-preto:hover {
     background-color: #999f2c;
+}
+
+.servicos {
+    color: black;
+    background-color: var(--branco);
+    text-align: center;
+    padding: 40px;
+}
+
+.servicoicone2 {
+    display: inline-block;
+    padding: 30px;
+    border-radius: 100%;
+    background-color: var(--verde);
+    height: 200px;
+    width: 200px;
+}
+
+.servicoicone2 img {
+    height: 80%;
+}
+
+.servicoicone p {
+    font-family: Benchnine;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#teste {
+    display: flex;
+    justify-content: space-around;
 }
