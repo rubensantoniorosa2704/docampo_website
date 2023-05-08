@@ -8,33 +8,33 @@
     PRINCIPAL
 --------------------*/
 
+.fundo-titulo {
+    background-image: url(../img/fazendeira.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 .campo {
     color: white;
     font-family: Benchnine;
-    font-size: 90px;
-    letter-spacing: 15px;
-    position: absolute;
+    font-size: 6em;
+    letter-spacing: 2vh;
     text-align: center;
-    top: 30%;
-    left: 34%;
 }
 
 .campo h3 {
-    font-size: 30px;
+    font-size: 0.3em;
     letter-spacing: 0px;
-    text-align: right;
 }
 
 .campo button {
     background-color: grey;
     border: 1px solid white;
     color: white;
-    font-size: 20px;
-    padding: 15px;
-    position: absolute;
-    left: 90px;
-    top: 400px;
-    width: 250px;
+    padding: 1%;
+    font-size: 0.2em;
+    width: 40vh;
 }
 
 .campo button:hover {
@@ -44,20 +44,14 @@
 }
 
 /*Estilo padrão da classe .conteudos*/
-.main {
-    top: 700px;
-    padding: 10px;
-    margin-bottom: 30px;
-}
-
-.container [class*="col-"] {
-    padding: 25px;
-}
 
 .container {
-    background-color: white;
-    text-align: center;
-    padding: 20px;
+    padding: 3%;
+}
+
+.nossa-empresa {
+    float: right;
+    margin-left: 9%;
 }
 
 .botao {
@@ -78,7 +72,7 @@
 .titulo {
     color: rgb(37, 37, 37);
     font-family: Benchnine;
-    font-size: 80px;
+    font-size: 5em;
     text-align: left;
 }
 
@@ -93,6 +87,7 @@
 
 .marcas {
     text-align: center;
+    margin-bottom: 8%;
 }
 
 /*serviços*/
@@ -121,11 +116,15 @@
 
 /*catalogo*/
 
+.fundo-catalogo {
+    background-image: url(../img/fazendeiro-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 .catalogo {
     color: white;
-    position: absolute;
-    top: 2710px;
-    left: 26%;
     text-align: center;
 }
 
@@ -142,6 +141,7 @@
 
 fieldset {
     border: none;
+    width: 80%;
 }
 
 input {
@@ -153,6 +153,7 @@ input {
 ::placeholder {
     font-family: Benchnine;
     color: white;
+    padding: 10px;
 }
 
 .grupo {
@@ -162,15 +163,32 @@ input {
 .grupo input {
     margin-right:20px;
     margin-top: 20px;
-    width: 200px;
+    width: 40%;
 }
 
 .contato input {
-    background-color: var(--verde);
     padding: 4px;
 }
 
 .contato textarea {
+    background-color: var(--verde);
+    resize: none;
+    border: none;
+    width: 100%;
+}
+
+.enviar {
+    border: 1px solid var(--verde);
+    background-color: white;
+    color: var(--verde);
+    font-size: 1.2em;
+    float: right;
+    padding: 10%;
+    width: 50%;
+    height: 10vh;
+}
+
+.grupo input {
     background-color: var(--verde);
 }
 

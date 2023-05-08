@@ -124,7 +124,6 @@ body {
 
     .info {
         font-size: 1.3em;
-        width: 50%;
     }
 
     .endereco {
@@ -163,6 +162,5 @@ body {
 }
 
 [class*="col-"] {
-    width: 100%;
     float: left;
 }
