@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: Benchnine;
+    src: url(../fonts/benchnine/BenchNine-Light.ttf);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -21,6 +26,15 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+button:hover {
+    cursor:pointer;
+}
+
+a {
+    text-decoration: none;
+    color: var(--branco);
 }
 
 @media only screen and (min-width: 768px) {
@@ -163,4 +177,201 @@ body {
 
 [class*="col-"] {
     float: left;
+}
+
+/*MENU DE NAVEGAÇÃO*/
+.fundo-menunavegacao {
+    background-image: url(../img/trigo-fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.titulo-menunavegacao {
+    color: var(--branco);
+    font-size: 2.8em;
+    font-family: Benchnine;
+    padding: 8%;
+}
+.test {
+    display: flex;
+}
+.test img {
+    height: 2%;
+    width: 4%;
+}
+.test h1 {
+    margin-left: 3%;
+}
+
+/*SERVIÇOS*/
+/*serviços*/
+.servicos {
+    color: black;
+    background-color: var(--branco);
+    text-align: center;
+    padding: 40px;
+}
+
+.servicoicone {
+    display: inline-block;
+    padding: 30px;
+}
+
+.servicoicone img {
+    vertical-align: bottom;
+}
+
+.servicoicone p {
+    font-family: Benchnine;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/*CONTATO*/
+.fundo-contato {
+    background-image: url(../img/trigo-fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-contato {
+    color: var(--branco);
+    font-size: 2.8em;
+    font-family: Benchnine;
+    padding: 8%;
+}
+
+.test {
+    display: flex;
+}
+
+.test img {
+    height: 2%;
+    width: 4%;
+}
+
+.test h1 {
+    margin-left: 3%;
+}
+
+/*FORMULÁRIO*/
+.contato {
+    background-color: var(--cinza);
+    padding: 60px;
+}
+
+.contato-fundo {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+}
+
+fieldset {
+    border: none;
+    width: 80%;
+}
+
+input {
+    border: none;
+    color: white;
+    font-family: Benchnine;
+}
+
+::placeholder {
+    font-family: Benchnine;
+    color: white;
+    padding: 10px;
+}
+
+.grupo {
+    margin-bottom: 20px;
+}
+
+.grupo input {
+    margin-right:20px;
+    margin-top: 20px;
+    width: 40%;
+}
+
+.contato input {
+    padding: 4px;
+}
+
+.contato textarea {
+    background-color: var(--verde);
+    resize: none;
+    border: none;
+    width: 100%;
+}
+
+.enviar {
+    border: 1px solid var(--verde);
+    background-color: white;
+    color: var(--verde);
+    font-size: 1.2em;
+    float: right;
+    padding: 10%;
+    width: 50%;
+    height: 10vh;
+}
+
+.enviar:hover {
+    border: 1px solid var(--verde);
+    background-color: var(--verde);
+    color: var(--branco);
+    cursor:pointer;
+}
+
+.grupo input {
+    background-color: var(--verde);
+}
+
+.teste {
+    justify-content: space-between;
+}
+
+.titulo {
+    color: rgb(37, 37, 37);
+    font-family: Benchnine;
+    font-size: 5em;
+    text-align: left;
+}
+
+.texto {
+    color: grey;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.botao {
+    color: white;
+    background-color: var(--verde);
+    font-family: Benchnine;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.botao:hover {
+    background-color: #999f2c;
+}
+
+.botao-preto {
+    color: white;
+    background-color: var(--cinzaescuro);
+    font-family: Benchnine;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.botao-preto:hover {
+    background-color: #999f2c;
 }
