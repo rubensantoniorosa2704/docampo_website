@@ -3,36 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Folhas de estilo-->
+        <title>Do Campo - Produtos Agrícolas</title>
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="./assets/css/home.css">
+        <link rel="stylesheet" href="./assets/css/form.css">
         <script src="https://kit.fontawesome.com/0ada53ee46.js" crossorigin="anonymous"></script>
-        <title>Do Campo - Produtos Agrícolas</title>
     </head>
 
     <body>
-        <!--menu de navegação-->
-        <header>
-            <div class="container">
-                <div class="menu">
-                    <div class="contatos">
-                        <ul class="tel-email" style="list-style: none; display: flex;">
-                            <li><i class="fa-solid fa-phone-volume" style="color: #ffffff;"></i>  (47) 3211 - 7000</li>
-                            <li><i class="fa-regular fa-envelope" style="color: #ffffff;"></i>  dw@unifebe.edu.br</li>
-                        </ul>
-                    </div>
-                    <div class="redes">
-                        <ul class="sn" style="list-style: none; display: flex;">
-                            <li><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></li>
-                            <li><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></li>
-                            <li><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></li>
-                        </ul>
-                    </div>
+        <!--Menu de contatos-->
+        <div class="row">
+            <div class="col-12">
+                <div class="menu-contatos">
+                    <ul>
+                        <li><i class="fa-solid fa-phone-volume"></i>  (47) 3211 - 7000</li>
+                        <li><i class="fa-regular fa-envelope"></i>  dw@unifebe.edu.br</li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i></li>
+                    </ul>
                 </div>
-                
-                <div class="nav">
-                    <ul style="list-style: none;">
-                        <li><a href="./home.html" style="color: rgb(168, 214, 109);">HOME</a></li>
+            </div>
+        </div>
+        <!--Fim menu de contatos-->
+
+        <!--Menu de navegação-->
+        <div class="row">
+            <div class="col-12">
+                <div class="menu-navegacao">
+                    <ul>
+                        <li><a href="./home.html" id="select">HOME</a></li>
                         <li><a href="./empresa.html">EMPRESA</a></li>
                         <li><a href="./servicos.html">SERVIÇOS</a></li>
                         <li><a href="./catalogo.html">CATÁLOGO</a></li>
@@ -41,103 +43,201 @@
                     </ul>
                 </div>
             </div>
-        </header>
-
-        <div>
-
-            <!--fazendeira primeira imagem-->
-            <div>
-                <img src="./assets/img/fazendeira.png" width="100%" height="500px">
-                <h1>CAMPO</h1>
-                <H3>COMPRA E VENDA</H3>
-                <a href="">
-                    <button>Saiba mais.</button>
-                </a>
-            </div><br>
-
-            <!--Nossa empresa-->
-            <div>
-                <h1>NOSSA EMPRESA</h1>
-                <img src="./assets/img/8136 1.png" width="450px" height="307">
-                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales arcu sed maximus convallis. Nullam euismod imperdiet eros, id laoreet nibh fringilla vel. Duis consequat, ligula et pellentesque bibendum, magna ex ullamcorper est, sed ultricies tortor magna at mi. Quisque sagittis luctus quam, at pharetra nunc varius id. Quisque id pretium ex, id pellentesque erat. Suspendisse vel ante in leo.</P>
-                <a href="">
-                    <button>Saiba mais.</button>
-                </a>
+        </div>
+        <!--Fim menu de navegação-->
+        
+        <main>
+            <!--Imagem fazendeira-->
+            <div class="row">
+                <div class="col-12">
+                    <div class="fundo-titulo">
+                        <!--Do campo titulo-->
+                        <div class="campo">
+                            <h1>CAMPO</h1>
+                            <h3>COMPRA E VENDA</h3>
+                            <button><a href="">Saiba mais.</a></button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <!--Nossas marcas-->
-            <div>
-                <h1>Nossas marcas</h1>
-                <img src="./assets/img/6042 1.png" width="605px" height="403px">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor, magna nec varius iaculis, tortor neque posuere nisi, id pharetra turpis lacus eu augue. Sed eget arcu eu justo semper sagittis eu in est. Praesent ex elit, molestie ut erat pretium, tincidunt scelerisque felis. Integer lectus magna, varius non neque non, ullamcorper lobortis ex. Donec non aliquet sapien, id facilisis massa. Proin nec nunc tortor. Aliquam non volutpat nibh. Nam sit amet lacus ut est dapibus fermentum. Proin nulla orci, fringilla vitae viverra non, efficitur sed massa. Morbi et aliquam lorem. Proin nec ornare metus. Aliquam erat volutpat.</p>
+            <!--Nossa empresa-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="empresa-imagem">
+                            <img src="./assets/img/8136 1.png" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="nossa-empresa">
+                            <h1 class="titulo">NOSSA EMPRESA</h1>
+                            <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales arcu sed maximus convallis. Nullam euismod imperdiet eros, id laoreet nibh fringilla vel. Duis consequat, ligula et pellentesque bibendum, magna ex ullamcorper est, sed ultricies tortor magna at mi. Quisque sagittis luctus quam, at pharetra nunc varius id. Quisque id pretium ex, id pellentesque erat. Suspendisse vel ante in leo.</p>
+                            <button class="botao"><a href="empresa.html">Saiba mais.</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!--Nossa marca-->
+            <div class="container">
+                <div class="row">
+                    <div class="nossamarca">
+                        <div class="col-5">
+                            <h1 class="titulo">NOSSAS MARCAS</h1>
+                            <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor, magna nec varius iaculis, tortor neque posuere nisi, id pharetra turpis lacus eu augue. Sed eget arcu eu justo semper sagittis eu in est. Praesent ex elit, molestie ut erat pretium, tincidunt scelerisque felis. Integer lectus magna, varius non neque non, ullamcorper lobortis ex. Donec non aliquet sapien, id facilisis massa. Proin nec nunc tortor. Aliquam non volutpat nibh. Nam sit amet lacus ut est dapibus fermentum. Proin nulla orci, fringilla vitae viverra non, efficitur sed massa. Morbi et aliquam lorem. Proin nec ornare metus. Aliquam erat volutpat.</p>
+                        </div>
+                        <div class="col-6" style="float:right; margin-top:5%;">
+                            <img src="./assets/img/6042 1.png" width="605px" height="403px">
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!--marcas-->
-            <div>
-                <img src="./assets/img/23.png">
-                <img src="./assets/img/20_1.png">
-                <img src="./assets/img/21.png">
-                <img src="./assets/img/22.png">
-                <img src="./assets/img/28.png">
-                <img src="./assets/img/24.png">
-                <img src="./assets/img/25.png">
-                <img src="./assets/img/26.png">
-                <img src="./assets/img/27.png">                
+            <div class="row">
+                <div class="col-12">
+                    <div class="marcas">
+                        <img src="./assets/img/23.png">
+                        <img src="./assets/img/20_1.png">
+                        <img src="./assets/img/21.png">
+                        <img src="./assets/img/22.png">
+                        <img src="./assets/img/28.png">
+                        <img src="./assets/img/24.png">
+                        <img src="./assets/img/25.png">
+                        <img src="./assets/img/26.png">
+                        <img src="./assets/img/27.png">                
+                    </div>
+                </div>
             </div>
 
             <!--Nossos serviços-->
-            <div>
-                <!--essa div no fundo preto-->
-                <h1>NOSSOS SERVIÇOS</h1>
-                <img src="./assets/img/truck 1.png">
-                    <p>Transporte</p>
-                <img src="./assets/img/secar.png">
-                    <p>Secagem</p>
-                <img src="./assets/img/container.png">
-                    <p>Armazenamento</p>
-                <img src="./assets/img/compras.png">
-                    <p>Venda futura</p>
-                <a href="">
-                    <button>Saiba mais.</button>
-                </a>
+            <div class="servicos">
+                <div class="row">
+                    <h1 class="titulo" style="color:white; text-align: center;">NOSSOS SERVIÇOS</h1>
+                </div>
+                <div class="row">
+                    <div class="servicoicone">
+                        <img src="./assets/img/truck 1.png">
+                        <p>Transporte</p>
+                    </div>
+                    <div class="servicoicone">
+                        <img src="./assets/img/secar.png">
+                        <p>Secagem</p>
+                    </div>
+                    <div class="servicoicone">
+                        <img src="./assets/img/container.png">
+                        <p>Armazenamento</p>
+                    </div>
+                    <div class="servicoicone">
+                        <img src="./assets/img/compras.png">
+                        <p>Venda futura</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <button class="botao">Saiba mais.</button>
+                </div>
             </div>
 
             <!--nosso catálogo-->
-            <div>
-                <h1>NOSSO CATÁLOGO</h1>
-                <img src="./assets/img/fazendeiro-fundo.jpg" width="100%" height="500px">
-                <p>Confira o nosso catálogo de produtos e tire suas dúvidas sobre os detalhes técnicos.</p>
-                <a href="">
-                    <button>CONFERIR.</button>
-                </a>
+            <div class="row">
+                <div class="col-12">
+                    <div class="fundo-catalogo">
+                        <div class="catalogo">
+                            <h1 class="titulo" style="color: white; text-align: center; line-height: 400px;">NOSSO CATÁLOGO</h1>
+                            <p>Confira o nosso catálogo de produtos e tire suas dúvidas sobre os detalhes técnicos.</p>
+                            <button class="botao">CONFERIR.</button>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </main>
 
+        <!--contato-->
+        <div class="contato">
+            <div class="contato-fundo">
+                <div>
+                    <h1 class="titulo" style="text-align: center;">CONTATO</h1>
+                    <p style="text-align: center;">Fale conosco</p>
+                </div>
+                
+                <div class="row" id="teste">
+                    <div class="col-8">
+                        <form action="" method="get">
+                            <fieldset>
+                                <div class="grupo">
+                                    <input type="text" placeholder="NOME">
+                                    <input type="email" placeholder="EMAIL">
+                                </div>
+                                <div class="grupo">
+                                    <input type="tel" placeholder="TELEFONE">
+                                    <input type="text" placeholder="ASSUNTO">
+                                </div>
+                                <div class="grupo">
+                                    <textarea cols="60" rows="10" placeholder="MENSAGEM"></textarea>
+                                </div>
+                                <input type="submit" value="ENVIAR MENSAGEM" class="enviar">
+                            </fieldset>
+                        </form>
+                    </div>
+
+                    <div class="col-4">
+                        <br>
+                        <h2>Informações de contato</h2>
+                        <br>
+                        <p>
+                            <i class="fa-solid fa-location-dot" style="color: #a8d66d;"></i>Rua Vendelino Maffezzolli, 333 - 
+                            Brusque<br>
+                            Santa Catarina<br>
+                            CEP: 88888-000<br><br>  
+    
+                            <i class="fa-solid fa-phone-volume" style="color: #a8d66d;"></i>Telefone: (47) 3211 - 7000<br><br>
+    
+                            <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i>rubens.rosa@unifebe.edu.br<br>
+                            <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i>thiago@unifebe.edu.br<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!--Rodapé-->
         <footer>
-            <div class="footer">
-                <div class="lorem">
-                    <p style="white-space: pre-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non metus viverra eros mattis convallis et eu ante. Nullam et tortor hendrerit, molestie dolor eu.</p>
-                </div>
-                <div class="info">
-                    <p>
-                        <i class="fa-solid fa-location-dot" style="color: #a8d66d;"></i>Rua Vendelino Maffezzolli, 333 - 
-                        Brusque<br>
-                        Santa Catarina<br>
-                        CEP: 88888-000<br><br>  
-
-                        <i class="fa-solid fa-phone-volume" style="color: #a8d66d;"></i>Telefone: (47) 3211 - 7000<br><br>
-
-                        <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i>rubens.rosa@unifebe.edu.br<br>
-                        <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i>thiago@unifebe.edu.br<br>
-                    </p>
+            <div class="rodape">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="info">
+                            <p style="white-space: pre-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non metus viverra eros mattis convallis et eu ante. Nullam et tortor hendrerit, molestie dolor eu.</p>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="endereco">
+                            <p>
+                                <i class="fa-solid fa-location-dot" style="color: #a8d66d;"></i>Rua Vendelino Maffezzolli, 333 - 
+                                Brusque<br>
+                                Santa Catarina<br>
+                                CEP: 88888-000<br><br>  
+        
+                                <i class="fa-solid fa-phone-volume" style="color: #a8d66d;"></i>Telefone: (47) 3211 - 7000<br><br>
+        
+                                <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i>rubens.rosa@unifebe.edu.br<br>
+                                <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i>thiago@unifebe.edu.br<br>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="desenvolvido-por">
-                <p>Desenvlvido por Rubens Antonio e Thiago Oliveira da Silva</p>
+
+            <div class="row">
+                <div class="col-12" id="desenvolvido">
+                    <div class="desenvolvido">
+                        <p>Desenvolvido com <i class="fa-solid fa-heart" style="color: #ffffff;"></i> por <a href="https://www.linkedin.com/in/rubens-rosa-a927081b4/" target="_blank">Rubens Antonio</a> e <a href="https://www.linkedin.com/in/thiago-oliveira-da-silva-515184166/" target="_blank">Thiago Oliveira da Silva</a></p>
+                    </div>
+                </div>
             </div>
         </footer>
-
+        <!--Fim rodapé-->
     </body>
 </html>
