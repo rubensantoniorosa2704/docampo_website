@@ -1,10 +1,19 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
-    --verde: #B2B74A 
+    --branco: #FFFFFF;
+    --verde: #B2B74A;
+    --cinza: #5D5650;
+    --cinzaclaro: #E8E8E8;
+    --cinzaescuro: #262B2B; 
 }
 
 body {
@@ -14,23 +23,138 @@ body {
     padding: 0;
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+@media only screen and (min-width: 768px) {
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 
-[class*="col-"] {
-    float: left;
-    padding: 0.3%;
-  }
+    /*--------------------menu de contatos--------------------*/
+    .menu-contatos {
+        background-color: var(--cinza);
+        color: var(--branco);
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+
+    .menu-contatos ul {
+        display: flex;
+        list-style-type: none;
+        padding: 1.0%;
+    }
+
+    .menu-contatos li {
+        margin-left: 3vh;
+    }
+
+    .menu-contatos i {
+        color: var(--branco);
+    }
+
+    [class*=fa-brands] {
+        font-size: 1.5em;
+    }
+    /*--------------------------------------------------------*/
+
+
+    /*--------------------menu de navegação--------------------*/
+    .menu-navegacao {
+        background-color: var(--branco);
+        height: 100%;
+    }
+    .menu-navegacao ul {
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        padding: 1%;
+    }
+    .menu-navegacao li {
+        font-size: 1.1em;
+        padding: 2%;
+        margin-right: 2%;
+    }
+    .menu-navegacao a {
+        color: rgb(142, 142, 142);
+        text-decoration: none;
+    }
+    .menu-navegacao li:hover {
+        background-color: var(--cinzaclaro); 
+    }
+
+    #loja {
+        background-color: #B2B74A;
+        margin-right: 0;
+        text-align: center;
+        width: 15%;
+    }
+
+    #loja a {
+        color: white;
+    }
+
+    #select{
+        color: #B2B74A;
+    }
+    /*---------------------------------------------------------*/
+
+    
+    /*--------------------rodapé--------------------*/
+    
+    footer {
+        border: 1px solid rgb(177, 177, 177);
+        color: rgb(233, 233, 233);
+        background-color: var(--cinza);
+    }
+    
+    .rodape .row {
+        display: flex;
+        justify-content: space-between;
+        padding: 8%;
+    }
+
+    .info {
+        font-size: 1.3em;
+        width: 50%;
+    }
+
+    .endereco {
+        font-size: 1.2em;
+        float: right;
+    }
+    
+    .desenvolvido {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .desenvolvido a {
+        color: var(--branco);
+    }
+    /*----------------------------------------------*/
+}/*Fim media query*/
+
+/*Desenvolver para celular aqui*/
+
+.menu-contatos {
+    color: var(--branco);
+    background-color: var(--cinza);
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-contatos ul {
+    list-style-type: none;
+}
 
 .row::after {
     content: "";
@@ -38,88 +162,7 @@ body {
     display: table;
 }
 
-/*--------------------
-  CONTATOS
---------------------*/
-
-#redes {
-    background-color:rgb(47, 47, 47);
-    color: white;
-    display: flex;
-    justify-content: space-between;
-}
-
-.contatos {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    margin-right: 10px;
-    width: fit-content;
-}
-
-.contatos li {
-    margin-left: 10px;
-}
-
-.contatos i {
-    font-size: 20px;
-}
-
-/*--------------------
-  MENU DE NAVEGAÇÃO
---------------------*/
-
-#select{
-    color: #B2B74A;
-}
-
-.menu {
-    display: flex;
-    float: right;
-    list-style-type: none;
-}
-
-.menu li {
-    margin-right: 15px;
-    padding: 20px;
-}
-
-.menu li:hover {
-    background-color: rgb(232, 232, 232);
-}
-
-.menu a {
-    color: rgb(142, 142, 142);
-    text-decoration: none;
-}
-
-#loja {
-    background-color: #B2B74A;
-    text-align: center;
-    width: 120px;
-}
-
-#loja a {
-    color: white;
-}
-
-/*--------------------
-  RODAPÉ
---------------------*/
-
-footer {
-    border: 1px solid rgb(177, 177, 177);
-    color: rgb(233, 233, 233);
-    background-color: rgb(78, 78, 78);
+[class*="col-"] {
     width: 100%;
-}
-
-#rodape {
-    display: flex;
-    justify-content: space-between;
-    padding: 5%;
-}
-
-#desenvolvido {
-    text-align: center;
+    float: left;
 }

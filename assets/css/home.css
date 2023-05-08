@@ -1,4 +1,4 @@
-/*Config fonte*/
+/*Configurar fonte*/
 @font-face {
     font-family: Benchnine;
     src: url(../fonts/benchnine/BenchNine-Light.ttf);
@@ -44,7 +44,7 @@
 }
 
 /*Estilo padrão da classe .conteudos*/
-.conteudos {
+.main {
     top: 700px;
     padding: 10px;
     margin-bottom: 30px;

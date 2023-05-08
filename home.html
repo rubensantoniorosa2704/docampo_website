@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Do Campo - Produtos Agrícolas</title>
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="./assets/css/home.css">
@@ -10,26 +10,29 @@
     </head>
 
     <body>
-        <!--menu de navegação-->
-        <header>
-            <div class="row">
-                <div class="col-12" id="redes">
-                    <ul class="contatos">
-                        <li><i class="fa-solid fa-phone-volume" style="color: #ffffff;"></i>  (47) 3211 - 7000</li>
-                        <li><i class="fa-regular fa-envelope" style="color: #ffffff;"></i>  dw@unifebe.edu.br</li>
+        <!--Menu de contatos-->
+        <div class="row">
+            <div class="col-12">
+                <div class="menu-contatos">
+                    <ul>
+                        <li><i class="fa-solid fa-phone-volume"></i>  (47) 3211 - 7000</li>
+                        <li><i class="fa-regular fa-envelope"></i>  dw@unifebe.edu.br</li>
                     </ul>
-
-                    <ul class="contatos">
-                        <li><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></li>
-                        <li><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></li>
-                        <li><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></li>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i></li>
                     </ul>
                 </div>
             </div>
-                    
-            <div class="row">
-                <div class="col-12">
-                    <ul class="menu">
+        </div>
+        <!--Fim menu de contatos-->
+
+        <!--Menu de navegação-->
+        <div class="row">
+            <div class="col-12">
+                <div class="menu-navegacao">
+                    <ul>
                         <li><a href="./home.html" id="select">HOME</a></li>
                         <li><a href="./empresa.html">EMPRESA</a></li>
                         <li><a href="./servicos.html">SERVIÇOS</a></li>
@@ -39,7 +42,10 @@
                     </ul>
                 </div>
             </div>
-        </header>
+        </div>
+        <!--Fim menu de navegação-->
+        
+            
 
         <!--Imagem fazendeira-->
         <div class="row">
@@ -190,30 +196,39 @@
 
         <!--Rodapé-->
         <footer>
-                <div class="row" id="rodape">
-                    <div class="col-3">
-                        <p style="white-space: pre-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non metus viverra eros mattis convallis et eu ante. Nullam et tortor hendrerit, molestie dolor eu.</p>
-                    </div>
-                    <div class="col-3">
-                        <p>
-                            <i class="fa-solid fa-location-dot" style="color: #a8d66d;"></i>Rua Vendelino Maffezzolli, 333 - 
-                            Brusque<br>
-                            Santa Catarina<br>
-                            CEP: 88888-000<br><br>  
-    
-                            <i class="fa-solid fa-phone-volume" style="color: #a8d66d;"></i>Telefone: (47) 3211 - 7000<br><br>
-    
-                            <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i>rubens.rosa@unifebe.edu.br<br>
-                            <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i>thiago@unifebe.edu.br<br>
-                        </p>
-                    </div>
-                </div>
-    
+            <div class="rodape">
                 <div class="row">
-                    <div class="col-12" id="desenvolvido">
-                        <p>Desenvolvido por Rubens Antonio e Thiago Oliveira da Silva</p>
+                    <div class="col-2">
+                        <div class="info">
+                            <p style="white-space: pre-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non metus viverra eros mattis convallis et eu ante. Nullam et tortor hendrerit, molestie dolor eu.</p>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <div class="endereco">
+                            <p>
+                                <i class="fa-solid fa-location-dot" style="color: #a8d66d;"></i>Rua Vendelino Maffezzolli, 333 - 
+                                Brusque<br>
+                                Santa Catarina<br>
+                                CEP: 88888-000<br><br>  
+        
+                                <i class="fa-solid fa-phone-volume" style="color: #a8d66d;"></i>Telefone: (47) 3211 - 7000<br><br>
+        
+                                <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i>rubens.rosa@unifebe.edu.br<br>
+                                <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i>thiago@unifebe.edu.br<br>
+                            </p>
+                        </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12" id="desenvolvido">
+                    <div class="desenvolvido">
+                        <p>Desenvolvido com <i class="fa-solid fa-heart" style="color: #ffffff;"></i> por <a href="https://www.linkedin.com/in/rubens-rosa-a927081b4/" target="_blank">Rubens Antonio</a> e <a href="https://www.linkedin.com/in/thiago-oliveira-da-silva-515184166/" target="_blank">Thiago Oliveira da Silva</a></p>
+                    </div>
+                </div>
+            </div>
         </footer>
+        <!--Fim rodapé-->
     </body>
 </html>
