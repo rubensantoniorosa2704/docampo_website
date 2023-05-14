@@ -1,0 +1,28 @@
+
+/*TRANSPORTE*/
+.transporte {
+    color: black;
+    background-color: var(--branco);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.transporte img {
+    vertical-align: bottom;
+    padding: 0.3%;
+}
+
+.transporte p {
+    font-family: Benchnine;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.transporte titulo02 {
+    padding: 100px;
+}
+
+.galeria-de-imagens-linha02 {
+    padding-bottom: 60px;
+}
