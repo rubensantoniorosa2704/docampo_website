@@ -1,3 +1,7 @@
+<a href="#aluno1">Aluno 1</a>
+<a href="#aluno2">Aluno 2</a>
+<a href="#aluno3"></a>
+
 <!--Apresentação-->
 <p><i>"Este projeto é um trabalho prático desenvolvido no curso de Sistemas de Informação da UNIFEBE, que tinha por objetivo colocar em prática nossos conhecimentos de Desenvolvimento Web, mais especificamente nas tecnologias HTML5 e CSS3"</p>
 <h1><strong>Site Institucional 'DO CAMPO'</strong></h1>
@@ -8,7 +12,7 @@
 <h2>Este trabalho foi desenvolvido por</h2>
 <ul>
     <li>
-        <h2>Rubens Antonio Rosa Neto</h2>
+        <h2 id="aluno1">Rubens Antonio Rosa Neto</h2>
         <p>Programador | Estudante Universitário | Sistemas de Informação</p>
         <div style="display:flex; justify-content: space-between;">
             <!--Github-->
@@ -28,7 +32,7 @@
         </div>
     </li>
     <li>
-        <h2>Thiago Oliveira da Silva</h2>
+        <h2 id="aluno2">Thiago Oliveira da Silva</h2>
         <p>Programador junior e estudante de Sistemas de Informação</p>
         <div style="display:flex; justify-content: space-between;">
             <!--Github-->
@@ -42,7 +46,7 @@
         </div>
     </li>
     <li>
-        <h2>Sinézio Octaviano Dadam Neto</h2>
+        <h2 id="aluno3">Sinézio Octaviano Dadam Neto</h2>
         <p>Venho do ramo do design gráfico, e estou me desafiando para que futuramente possa utilizar das duas técnicas para ser um ótimo profisional.</p>
         <div style="display:flex; justify-content: space-between;">
             <!--Github-->
