@@ -1,6 +1,8 @@
-<a href="#aluno1">Aluno 1</a>
-<a href="#aluno2">Aluno 2</a>
-<a href="#aluno3"></a>
+<ul>
+    <li><a href="#aluno1">Aluno 1</a></li>
+    <li><a href="#aluno2">Aluno 2</a></li>
+    <li><a href="#aluno3">Aluno 3</a></li>
+</ul>
 
 <!--Apresentação-->
 <p><i>"Este projeto é um trabalho prático desenvolvido no curso de Sistemas de Informação da UNIFEBE, que tinha por objetivo colocar em prática nossos conhecimentos de Desenvolvimento Web, mais especificamente nas tecnologias HTML5 e CSS3"</p>
