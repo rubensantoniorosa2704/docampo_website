@@ -52,74 +52,7 @@ a {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 
-    /*--------------------menu de contatos--------------------*/
-    .menu-contatos {
-        background-color: var(--cinza);
-        color: var(--branco);
-        display: flex;
-        justify-content: space-between;
-        list-style-type: none;
-    }
 
-    .menu-contatos ul {
-        display: flex;
-        list-style-type: none;
-        padding: 1.0%;
-    }
-
-    .menu-contatos li {
-        margin-left: 3vh;
-    }
-
-    .menu-contatos i {
-        color: var(--branco);
-    }
-
-    [class*=fa-brands] {
-        font-size: 1.5em;
-    }
-    /*--------------------------------------------------------*/
-
-
-    /*--------------------menu de navegação--------------------*/
-    .menu-navegacao {
-        background-color: var(--branco);
-        height: 100%;
-    }
-    .menu-navegacao ul {
-        display: flex;
-        justify-content: flex-end;
-        list-style-type: none;
-        padding: 1%;
-    }
-    .menu-navegacao li {
-        font-size: 1.1em;
-        padding: 2%;
-        margin-right: 2%;
-    }
-    .menu-navegacao a {
-        color: rgb(142, 142, 142);
-        text-decoration: none;
-    }
-    .menu-navegacao li:hover {
-        background-color: var(--cinzaclaro); 
-    }
-
-    #loja {
-        background-color: #B2B74A;
-        margin-right: 0;
-        text-align: center;
-        width: 15%;
-    }
-
-    #loja a {
-        color: white;
-    }
-
-    #select{
-        color: #B2B74A;
-    }
-    /*---------------------------------------------------------*/
 
     
     /*--------------------rodapé--------------------*/
