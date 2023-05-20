@@ -190,80 +190,7 @@ a {
     margin-left: 3%;
 }
 
-/*FORMULÁRIO*/
-.contato {
-    background-color: var(--cinza);
-    padding: 60px;
-}
 
-.contato-fundo {
-    background: rgba(255, 255, 255, 0.95);
-    padding: 20px;
-}
-
-fieldset {
-    border: none;
-    width: 80%;
-}
-
-input {
-    border: none;
-    color: white;
-    font-family: Benchnine;
-}
-
-::placeholder {
-    font-family: Benchnine;
-    color: white;
-    padding: 10px;
-}
-
-.grupo {
-    margin-bottom: 20px;
-}
-
-.grupo input {
-    margin-right:20px;
-    margin-top: 20px;
-    width: 40%;
-}
-
-.contato input {
-    padding: 4px;
-}
-
-.contato textarea {
-    background-color: var(--verde);
-    resize: none;
-    border: none;
-    width: 100%;
-}
-
-.enviar {
-    border: 1px solid var(--verde);
-    background-color: white;
-    color: var(--verde);
-    font-size: 1.2em;
-    float: right;
-    padding: 10%;
-    width: 50%;
-    height: 10vh;
-}
-
-.enviar:hover {
-    border: 1px solid var(--verde);
-    background-color: var(--verde);
-    color: var(--branco);
-    cursor:pointer;
-}
-
-.grupo input {
-    background-color: var(--verde);
-}
-
-.teste {
-    justify-content: space-between;
-}
 
 .titulo {
     color: rgb(37, 37, 37);
@@ -373,3 +300,17 @@ input {
 .teste2 input::placeholder {
     color: var(--verde);
 }
+
+#mensagemaceite {
+    display: none;
+    background: rgba(255, 255, 255, 0.95);
+    font-size: 9px;
+    position: fixed;
+    top: 9%;
+    left: 2%;
+    color: var(--verde);
+    text-align: center;
+    padding: 1%;
+    width: fit-content;
+    transition: opacity 0.5s;
+  }

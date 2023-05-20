@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="./assets/css/home.css">
         <link rel="stylesheet" href="./assets/css/menu.css">
+        <link rel="stylesheet" href="./assets/css/contato.css">
         <script src="https://kit.fontawesome.com/0ada53ee46.js" crossorigin="anonymous"></script>
     </head>
 
@@ -157,13 +158,14 @@
 
         <!--contato-->
         <div class="contato">
+            
             <div class="contato-fundo">
                 <div>
                     <h1 class="titulo" style="text-align: center;">CONTATO</h1>
                     <p style="text-align: center;">Fale conosco</p>
                 </div>
                 
-                <div class="row" id="teste">
+                <div class="row">
                     <div class="col-8">
                         <form action="" method="get">
                             <fieldset>
@@ -178,7 +180,7 @@
                                 <div class="grupo">
                                     <textarea cols="60" rows="10" placeholder="MENSAGEM"></textarea>
                                 </div>
-                                <input type="submit" value="ENVIAR MENSAGEM" class="enviar">
+                                <input type="submit" value="ENVIAR MENSAGEM" class="enviar" onclick="exibirMensagemAceite(event)">
                             </fieldset>
                         </form>
                     </div>
@@ -188,19 +190,24 @@
                         <h2>Informações de contato</h2>
                         <br>
                         <p>
-                            <i class="fa-solid fa-location-dot" style="color: #a8d66d;"></i>Rua Vendelino Maffezzolli, 333 - 
+                            <i class="fa-solid fa-location-dot" style="color: #a8d66d;"></i> Rua Vendelino Maffezzolli, 333 - 
                             Brusque<br>
                             Santa Catarina<br>
                             CEP: 88888-000<br><br>  
     
-                            <i class="fa-solid fa-phone-volume" style="color: #a8d66d;"></i>Telefone: (47) 3211 - 7000<br><br>
+                            <i class="fa-solid fa-phone-volume" style="color: #a8d66d;"></i> Telefone: (47) 3211 - 7000<br><br>
     
-                            <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i>rubens.rosa@unifebe.edu.br<br>
-                            <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i>thiago@unifebe.edu.br<br>
+                            <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i> rubens.rosa@unifebe.edu.br<br>
+                            <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i> thiago@unifebe.edu.br<br>
+                            <i class="fa-solid fa-envelope" style="color: #a8d66d;"></i> sinezio.dadam@unifebe.edu.br<br>
                         </p>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div id="mensagemaceite">
+            <h1>Mensagem enviada com sucesso</h1>
         </div>
 
         <!--Rodapé-->
@@ -239,5 +246,6 @@
                 </div>
             </div>
         </footer>
+    <script src="./assets/js/script.js"></script>
     </body>
 </html>
