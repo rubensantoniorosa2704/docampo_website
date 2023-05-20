@@ -139,26 +139,32 @@ a {
 
 /*SERVIÇOS*/
 /*serviços*/
-.servicos {
-    color: black;
-    background-color: var(--branco);
+
+.servico {
     text-align: center;
-    padding: 40px;
 }
 
-.servicoicone {
+.containerservicos {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.servicoicone2 {
+    text-align: center;
     display: inline-block;
-    padding: 30px;
 }
 
-.servicoicone img {
+.servicoicone2 img {
     vertical-align: bottom;
 }
 
-.servicoicone p {
+.servico p {
     font-family: Benchnine;
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 /*CONTATO*/
@@ -215,6 +221,7 @@ a {
     padding: 10px;
     width: 200px;
     margin-top: 20px;
+    transition: 0.3s;
 }
 
 .botao:hover {
@@ -230,6 +237,7 @@ a {
     padding: 10px;
     width: 200px;
     margin-top: 20px;
+    transition: 0.3s;
 }
 
 .botao-preto:hover {

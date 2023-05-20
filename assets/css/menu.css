@@ -41,14 +41,18 @@
     font-size: 1.1em;
     padding: 2%;
     margin-right: 2%;
+    transition: 0.3s;
 }
+
+.menu-navegacao li:hover {
+    background-color: var(--cinzaclaro); 
+}
+
 .menu-navegacao a {
     color: rgb(142, 142, 142);
     text-decoration: none;
 }
-.menu-navegacao li:hover {
-    background-color: var(--cinzaclaro); 
-}
+
 
 #loja {
     background-color: #B2B74A;
