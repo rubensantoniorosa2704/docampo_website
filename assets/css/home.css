@@ -34,9 +34,6 @@
     border: 1px solid rgb(108, 108, 108);
     color: rgb(229, 229, 229);
 }
-/*Fim Titulo principal*/
-
-/*Estilo padrão da classe .conteudos*/
 
 .container {
     padding: 3%;
@@ -77,14 +74,12 @@
 }
 
 /*marcas*/
-
 .marcas {
     text-align: center;
     margin-bottom: 8%;
 }
 
 /*serviços*/
-
 .servicos {
     color: white;
     background-color: rgb(48, 48, 48);
@@ -108,7 +103,6 @@
 }
 
 /*catalogo*/
-
 .fundo-catalogo {
     background-image: url(../img/fazendeiro-fundo.jpg);
     background-repeat: no-repeat;
