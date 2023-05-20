@@ -77,6 +77,14 @@ a {
         font-size: 1.2em;
         float: right;
     }
+
+    .endereco a {
+        transition: 0.3s;
+    }
+
+    .endereco p a:hover {
+        color: #a8d66d;
+    }
     
     .desenvolvido {
         font-size: 0.8em;
@@ -290,25 +298,6 @@ a {
     background-color: rgba(255,255,255,0.85);
 }
 
-.teste2 {
-    padding: 10%;
-    margin-left: 10%;
-}
-
-.teste2 input {
-    border: 1px solid var(--cinza);
-    color: var(--verde);
-    padding: 1%;
-    display: block;
-    font-size: 0.3em;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-.teste2 input::placeholder {
-    color: var(--verde);
-}
-
 #mensagemaceite {
     display: none;
     background: rgba(255, 255, 255, 0.95);
@@ -322,3 +311,38 @@ a {
     width: fit-content;
     transition: opacity 0.5s;
   }
+
+  .catalogo-fundo {
+    padding-left: 20%;
+    padding-right:20%;
+    padding-bottom:50%;
+    padding-top: 5%;
+    background-image: url(../img/fundo-campo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70%;
+}
+
+.login {
+    background-color: rgba(255,255,255,0.85);
+}
+
+.teste2 {
+    padding: 10%;
+    border: none;
+}
+
+.teste2 input {
+    border: 1px solid var(--cinza);
+    color: var(--verde);
+    font-family: Benchnine;
+    padding: 1%;
+    display: block;
+    font-size: 0.3em;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.teste2 input::placeholder {
+    color: var(--verde);
+}

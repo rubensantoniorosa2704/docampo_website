@@ -25,11 +25,13 @@
     padding: 1%;
     font-size: 0.2em;
     width: 40vh;
+    transition: 0.3s;
+    border:none;
 }
 
 .campo button:hover {
     background-color: rgb(108, 108, 108);
-    border: 1px solid black;
+    border: 1px solid rgb(108, 108, 108);
     color: rgb(229, 229, 229);
 }
 /*Fim Titulo principal*/
