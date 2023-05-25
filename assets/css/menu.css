@@ -1,7 +1,96 @@
 /*--------------------
     Menu de Contatos
 --------------------*/
-.menu-contatos {
+
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .menu-contatos {
+        background-color: var(--cinza);
+        color: var(--branco);
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    
+    .menu-contatos ul {
+        display: flex;
+        list-style-type: none;
+        padding: 1.0%;
+    }
+    
+    .menu-contatos li {
+        margin-left: 3vh;
+    }
+    
+    [class*=fa-brands] {
+        color: var(--branco);
+        font-size: 1.5em;
+    }
+    
+    /*--------------------
+        Menu de Navegação
+    --------------------*/
+    .menu-navegacao {
+        background-color: var(--branco);
+        height: 100%;
+    }
+    .menu-navegacao ul {
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        padding: 1%;
+    }
+    .menu-navegacao li {
+        font-size: 1.1em;
+        padding: 2%;
+        margin-right: 2%;
+        transition: 0.3s;
+    }
+    
+    .menu-navegacao li:hover {
+        background-color: var(--cinzaclaro); 
+    }
+    
+    .menu-navegacao a {
+        color: rgb(142, 142, 142);
+        text-decoration: none;
+    }
+    
+    
+    #loja {
+        background-color: #B2B74A;
+        margin-right: 0;
+        text-align: center;
+        width: 15%;
+    }
+    
+    #loja a {
+        color: white;
+    }
+    
+    #select{
+        color: #B2B74A;
+    }
+  }
+
+  .menu-contatos {
     background-color: var(--cinza);
     color: var(--branco);
     display: flex;
@@ -12,7 +101,6 @@
 .menu-contatos ul {
     display: flex;
     list-style-type: none;
-    padding: 1.0%;
 }
 
 .menu-contatos li {
@@ -21,7 +109,7 @@
 
 [class*=fa-brands] {
     color: var(--branco);
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 /*--------------------
@@ -29,13 +117,11 @@
 --------------------*/
 .menu-navegacao {
     background-color: var(--branco);
-    height: 100%;
 }
 .menu-navegacao ul {
-    display: flex;
+    text-align: center;
     justify-content: flex-end;
     list-style-type: none;
-    padding: 1%;
 }
 .menu-navegacao li {
     font-size: 1.1em;
@@ -53,16 +139,12 @@
     text-decoration: none;
 }
 
-
 #loja {
+    display: none;
     background-color: #B2B74A;
     margin-right: 0;
     text-align: center;
     width: 15%;
-}
-
-#loja a {
-    color: white;
 }
 
 #select{
